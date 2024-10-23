@@ -12,6 +12,11 @@ article p::first-letter {
   color: red;
 }
 
+#welcome {
+  display: block;
+  margin: 100px auto 0 auto; 
+}
+
 .hover-image {
   transition: all 0.3s ease;
 }
