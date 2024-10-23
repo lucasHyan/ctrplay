@@ -1,0 +1,58 @@
+body {
+  background: url("img/background.png") center/cover no-repeat;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#sol,
+article p::first-letter {
+  color: red;
+}
+
+.hover-image {
+  transition: all 0.3s ease;
+}
+
+.hover-image:hover {
+  content: url("/img/manoel-gomes.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.imagens-depois-li {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
