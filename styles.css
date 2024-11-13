@@ -1,5 +1,5 @@
 body {
-  background: url("img/background.png") center/cover no-repeat;
+  background: url("/img/background.png") center/cover no-repeat;
   color: white;
   font-family: "Press Start 2P", cursive;
   margin: 0;
@@ -13,8 +13,6 @@ article p::first-letter {
 }
 
 #welcome {
-  display: block;
-  margin: 100px auto 0 auto; 
 }
 
 .hover-image {
@@ -27,13 +25,6 @@ article p::first-letter {
   height: 200px;
 }
 
-.imagens-depois-li {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
 
 article {
   border: 2px solid white;
@@ -45,7 +36,6 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 nav ul li {
